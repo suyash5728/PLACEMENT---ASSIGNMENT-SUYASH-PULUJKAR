@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: rgb(162, 222, 235);
+}
+.header{
+    background-color: #02B290;
+    color: #fff;
+    max-width: 1220px;
+    width: 100%;
+    margin-inline: auto;
+    margin-top: 2rem;
+    padding: 3rem;
+    text-align: center;
+    border-radius: 5px;
+}
+.header h1{
+    font-size: 32px;
+}
+.hero-section{
+    display: flex;
+    margin-inline: auto;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.5rem;
+}
+.left-aside{
+    background-color: #4DD637;
+    color: #fff;
+    max-width: 300px;
+    width: 100%;
+    min-height: 500px;
+    padding: 3rem;
+    text-align: center;
+    margin-top: 3rem;
+    border-radius: 5px;
+    
+}
+.left-aside h1{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 10rem;
+}
+.right-article{
+    background-color: #E07C24;
+    max-width: 900px;
+    width: 100%;
+    min-height: 500px;
+    margin-top: 3rem;
+    border-radius: 5px;
+    margin-left: 1rem;
+   
+}
+.right-article >  h1{
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 200px;
+   
+}
+.three-img{
+     
+      display: flex;
+      /* justify-content: center;
+      align-items: center; */
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 15rem;
+      margin-left: 3rem;
+}
+.img1{
+   
+    max-width: 260px;
+    width: 30%;
+    min-height: 200px;
+    color: #fff;
+    background-color: #D9D55B;
+    border-radius: 5px;
+    text-align: center;
+    text-align: center;
+}
+.img1 h1{
+    margin-top: 4rem;
+    font-size: 32px;
+} 
+.img2{
+    
+    max-width: 260px;
+    width: 30%;
+    min-height: 200px;
+    color: #fff;
+    background-color: #D9D55B;
+    border-radius: 5px;
+    text-align: center;
+}
+.img2 h1{
+    margin-top: 4rem;
+    font-size: 32px;
+} 
+.img3{
+    
+    max-width: 260px;
+    width: 30%;
+    min-height: 200px;
+    color: #fff;
+    background-color: #D9D55B;
+    border-radius: 5px;
+    text-align: center;
+}
+.img3 h1{
+    margin-top: 4rem;
+    font-size: 32px;
+} 
